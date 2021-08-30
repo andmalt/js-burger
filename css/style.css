@@ -1,6 +1,6 @@
 
 .img-ingredienti{
-    height: 70px;
+    height: 60px;
     
 }
 .img-ingredienti img{
@@ -11,7 +11,7 @@
     background-color: orange;
 }
 .img-panino{
-    height: 120px;
+    height: 100px;
     overflow: hidden;
 }
 .img-panino img{
@@ -25,6 +25,9 @@
 .red{
     background-color: rgb(196, 38, 38);
     color: white;
+}
+#prezzo-panino{
+    font-size: 2.5rem;
 }
 #coupon-sconto{
     width: 75%;

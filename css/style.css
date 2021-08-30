@@ -1,25 +1,42 @@
 
 .img-ingredienti{
     height: 70px;
+    
 }
 .img-ingredienti img{
     height: 100%;
+    border-radius: 10px;
 }
 .orange_b{
     background-color: orange;
 }
 .img-panino{
     height: 120px;
-    border-radius: 50%;
+    overflow: hidden;
 }
 .img-panino img{
     height: 100%;
-    border-radius: 50%;
+    border-radius: 25px;
 }
 .grey_b{
     background-color: rgb(236, 232, 232);
+    border-radius: 7px;
+}
+.red{
+    background-color: rgb(196, 38, 38);
+    color: white;
+}
+#coupon-sconto{
+    width: 75%;
+    border-radius: 7px;
+
 }
 #nome-panino{
     font-size: 25px;
     border: none;
+    width: 65%;
+}
+#but-sconto{
+    width: 120px;
+    border-radius: 7px;
 }

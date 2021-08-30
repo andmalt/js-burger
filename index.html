@@ -23,7 +23,7 @@
             </div>
 
             <div class="col-12 col-md-6 text-center">
-                <div class="img-panino py-2">
+                <div class="img-panino my-3">
                     <img src="Img/Panino.jpg" alt="immagine panino">
                 </div>
             </div>
@@ -95,11 +95,35 @@
                         <input type="checkbox" class="checkbox-ingredienti">
                     </div>
                 </div>
+
+            </div>
+
+            <!-- calcolatore sconto -->
+            <div class="col-12 py-3">
+                
+                <div class="row g-3">
+                    <div class="col-12">
+                        <h5 class="d-inline-block me-3">coupon sconto</h5>
+                        <input type="text" id="coupon-sconto" placeholder="Inserire nome coupon">                  
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button id="but-sconto" class="d-block">Calcolo</button>
+                    </div>
+                </div>
             </div>
 
         </section>
 
-        <section class="row">
+        <!-- sezione footer -->
+        <section class="row red py-4">
+
+            <div class="col-12 col-md-6">
+                <h3>Prezzo del panino</h3>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <span id="prezzo-panino"></span>
+            </div>
 
         </section>
     </main>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js burger exercise</title>
+
+    <!-- bootstrap v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main class="container">
+
+        <!-- sezione di testa -->
+        <section class="row orange_b">
+            <div class="col-12 col-md-6 text-center pt-5 align-content-center">
+                <h1 class="fw-bold">Crea il tuo panino</h1>
+            </div>
+
+            <div class="col-12 col-md-6 text-center">
+                <div class="img-panino py-2">
+                    <img src="Img/Panino.jpg" alt="immagine panino">
+                </div>
+            </div>
+        </section>
+
+        <!-- sezione contenuti -->
+        <section class="row">
+
+            <!-- nome panino -->
+            <div class="col-12">
+                <div class="py-4">
+                    <input type="text" id="nome-panino" placeholder="Nome del panino">
+                </div>
+            </div>
+
+            <!-- ingredienti panino -->
+            <div class="col-12 grey_b">
+                <div class="row">
+                    <div class="col-12 col-md-8 py-4">
+                        <h2>Ingredienti</h2>
+                    </div>
+                </div>
+                
+                <!-- scelta ingredienti -->
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="img-ingredienti d-inline-block me-3">
+                            <img src="Img/formaggio.jpg" alt="immagine formaggio">
+                        </div>
+                        <h5 class="d-inline-block me-3">Formaggio</h5>
+                        <input type="checkbox">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="img-ingredienti d-inline-block me-3">
+                            <img src="Img/pomodoro.jpg" alt="immagine pomodoro">
+                        </div>
+                        <h5 class="d-inline-block me-3">Pomodori</h5>
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="row">
+
+        </section>
+    </main>
+
+    <script type="text/javascript" src="Js/myscript.js"></script>
+</body>
+</html>

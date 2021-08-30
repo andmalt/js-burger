@@ -1,0 +1,25 @@
+
+.img-ingredienti{
+    height: 80px;
+}
+.img-ingredienti img{
+    height: 100%;
+}
+.orange_b{
+    background-color: orange;
+}
+.img-panino{
+    height: 140px;
+    border-radius: 50%;
+}
+.img-panino img{
+    height: 100%;
+    border-radius: 50%;
+}
+.grey_b{
+    background-color: rgb(236, 232, 232);
+}
+#nome-panino{
+    font-size: 25px;
+    border: none;
+}

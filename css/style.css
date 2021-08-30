@@ -1,6 +1,6 @@
 
 .img-ingredienti{
-    height: 80px;
+    height: 70px;
 }
 .img-ingredienti img{
     height: 100%;
@@ -9,7 +9,7 @@
     background-color: orange;
 }
 .img-panino{
-    height: 140px;
+    height: 120px;
     border-radius: 50%;
 }
 .img-panino img{
